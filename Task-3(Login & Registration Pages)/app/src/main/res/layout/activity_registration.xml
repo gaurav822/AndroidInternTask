@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:text="Registration Page"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:hint="User Name"
+        android:textColorHint="#473660"
+        android:id="@+id/userName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#473660"
+        android:id="@+id/passWord"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:hint="Enter Email Id"
+        android:textColorHint="#473660"
+        android:id="@+id/emailId"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:hint="Enter Phone Number"
+        android:textColorHint="#473660"
+        android:id="@+id/phoneNumber"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_marginTop="20dp"
+        android:background="#FF6D00"
+        android:text="register"
+        android:textSize="20sp"
+        android:id="@+id/registerButton"
+        android:onClick="Registration"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"/>
+</LinearLayout>
