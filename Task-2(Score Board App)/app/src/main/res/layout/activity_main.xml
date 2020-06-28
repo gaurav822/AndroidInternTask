@@ -1,0 +1,149 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEAM A"
+            android:textColor="#0D031B"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/text1"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:text="0"
+            android:textColor="#0D031B"
+            android:textSize="60dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/teamAScore"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#2962FF"
+            android:layout_below="@+id/teamAScore"
+            android:id="@+id/onePointA"
+            android:text="+1 Point"
+            android:textColor="#FDF6F6"
+            android:layout_centerHorizontal="true"
+            android:onClick="onePointA"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#2962FF"
+            android:id="@+id/twoPointA"
+            android:layout_below="@+id/onePointA"
+            android:text="+2 Point"
+            android:textColor="#FDF6F6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:onClick="twoPointA"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#2962FF"
+            android:id="@+id/threePointA"
+            android:layout_below="@+id/twoPointA"
+            android:text="+3 Point"
+            android:textColor="#FDF6F6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:onClick="threePointA"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEAM B"
+            android:textColor="#0D031B"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/text2"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:text="0"
+            android:textColor="#0D031B"
+            android:textSize="60dp"
+            android:id="@+id/teamBScore"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#2962FF"
+            android:layout_below="@+id/teamBScore"
+            android:id="@+id/onePointB"
+            android:text="+1 Point"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FDF6F6"
+
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#2962FF"
+            android:id="@+id/twoPointB"
+            android:layout_below="@+id/onePointB"
+            android:text="+2 Point"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:textColor="#FDF6F6"
+
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#2962FF"
+            android:id="@+id/threePointB"
+            android:layout_below="@+id/twoPointB"
+            android:text="+3 Point"
+            android:textColor="#FDF6F6"
+            android:layout_marginTop="20sp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="RESET"
+            android:layout_below="@id/threePointB"
+            android:id="@+id/resetButton"
+            android:onClick="resetFunction"
+            android:layout_marginLeft="-20sp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
