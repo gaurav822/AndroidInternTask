@@ -64,7 +64,6 @@
         android:text="register"
         android:textSize="20sp"
         android:id="@+id/registerButton"
-        android:onClick="Registration"
 
         />
     <TextView
