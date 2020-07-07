@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task-6</string>
+
+    <string-array name="branch">
+
+        <item>Choose your branch</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>Mechanical</item>
+        <item>EEE</item>
+        <item>Civil</item>
+    </string-array>
+</resources>
