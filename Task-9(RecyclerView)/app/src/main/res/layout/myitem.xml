@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#00BFA9"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="142dp"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/codeName"
+        android:text="CodeName"
+        android:textSize="25sp"
+           android:textColor="#176E08"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/versionNumber"
+        android:text="Version Number"
+        android:textSize="25sp"
+        android:textColor="#D50000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apiLevel"
+        android:text="API LEVEL"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/releaseDate"
+        android:text="Release Date"
+        android:textSize="25sp"
+        android:textColor="#AA00FF"
+        />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
