@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:background="#0D2018"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="25dp"
+        android:id="@+id/date"
+        android:layout_gravity="center"
+        android:textColor="#DAC32C"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="Active"
+            android:textSize="25dp"
+            android:background="@null"
+            android:textColor="@color/colorPrimary"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Recover"
+            android:textSize="25dp"
+            android:layout_marginLeft="80dp"
+            android:background="@null"
+            android:textColor="#00EE43"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="Deaths"
+            android:textSize="25sp"
+            android:gravity="right"
+            android:background="@null"
+            android:textColor="#EE0043"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="25dp"
+            android:id="@+id/active"
+            android:background="@null"
+            android:textColor="#F1EEF4"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="25dp"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/recover"
+            android:background="@null"
+            android:textColor="#E6E1ED"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="25sp"
+            android:gravity="right"
+            android:id="@+id/deaths"
+            android:background="@null"
+            android:textColor="#F1EEF4"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
