@@ -26,7 +26,7 @@ import javax.net.ssl.HttpsURLConnection;
 public class MyTask extends AsyncTask<Void,Void,String> {
 
 
-    String url="https://api.covid19api.com/dayone/country/IN";
+    String url="https://api.covid19api.com/dayone/country/NP";
     RecyclerView myRv;
     Context ct;
     ProgressDialog pd;

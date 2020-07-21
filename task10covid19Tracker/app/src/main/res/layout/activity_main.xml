@@ -9,7 +9,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="search"
+        android:text="Show Data"
+        android:background="#1AE190"
+        android:textColor="#121010"
         android:onClick="search"/>
 
     <androidx.recyclerview.widget.RecyclerView
